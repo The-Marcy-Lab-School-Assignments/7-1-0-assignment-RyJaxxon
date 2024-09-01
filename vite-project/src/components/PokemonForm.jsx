@@ -11,13 +11,14 @@ const PokemonForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const newPokemon = {name, hp, front, back}
+        console.log(`NEW POKEMON: ${newPokemon}`)
         addPokemon(newPokemon);
     }
 
     return (
         <div>
             <h3>Add a Pokemon!</h3>
-            <form className="ui form">
+            <form className="ui form" onSubmit={handleSubmit}>
                 <div className="four fields" widths="equal">
                     <div className="field ui fluid">
                         <label>Name</label>

@@ -90,6 +90,13 @@
       "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
       "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
       "id": 13
+    },
+    {
+      "name": "Bob",
+      "hp": "1",
+      "front": "https://upload.wikimedia.org/wikipedia/en/e/e5/FinnAdventureTime.png",
+      "back": "https://facts.net/wp-content/uploads/2023/09/15-facts-about-finn-the-human-adventure-time-1694334709.jpg",
+      "id": 14
     }
   ]
 }
